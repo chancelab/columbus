@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.star-rect {
+	/* width of 3 stars + 10px */
+	width: 70px;
+	/* height of star */
+	height: 20px;
+	cursor: pointer;
+}
+
+.star-rect ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	/* width of 3 stars */
+	/* width: calc(100% - 10px); */
+	width: 60px;
+	height: 100%;
+	background: url(../img/star.gif) repeat-x;
+}
+
+.star-rect ul li {
+	position: absolute;
+	width: 0;
+	height: 100%;
+	font-size: 1px;
+	background-image: inherit;
+}
+
+.star-rect ul li:first-child {
+	z-index: 1000;
+	background-position: 0 -40px;
+}
+
+.star-rect ul li + li {
+	z-index: 999;
+	background-position: 0 -80px;
+}
+
+.star-text > span {
+	margin-right: 3px;
+	font-size: 11px;
+	font-family: Verdana, Arial, sans-serif;
+	color: #888;
+	background-color: inherit;
+}
+
+.star-text span span {
+	font-size: 13px;
+	color: #333;
+	background-color: inherit;
+}
+
+.star-text-alert * {
+	color: #F60 !important;
+	background-color: inherit;
+}
+
+.star .lfloat {
+	float: left;
+}
+
+.star .rfloat {
+	float: right;
+}
+
+.star .kfloat {
+	clear: both;
+}

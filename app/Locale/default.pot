@@ -1,0 +1,1368 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-03-21 12:54+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppSettingsController.php:12
+msgid "DISABLE"
+msgstr ""
+
+#: Controller/AppSettingsController.php:13
+msgid "ENABLE"
+msgstr ""
+
+#: Controller/AppSettingsController.php:16
+msgid "APPD ADMIN"
+msgstr ""
+
+#: Controller/AppSettingsController.php:29
+#: Controller/AttachmentsController.php:30;75;115
+#: Controller/IdeaResponseRatingsController.php:29;77;120
+#: Controller/IdeaResponsesController.php:43
+#: Controller/IdeaTagsController.php:32;81;125
+#: Controller/TagsController.php:29;74;114
+msgid "Invalid %s"
+msgstr ""
+
+#: Controller/AppSettingsController.php:29;34;44
+msgid "app setting"
+msgstr ""
+
+#: Controller/AppSettingsController.php:34
+#: Controller/AttachmentsController.php:45;80
+#: Controller/IdeaResponseRatingsController.php:44;82
+#: Controller/IdeaResponsesController.php:79
+#: Controller/IdeaTagsController.php:47;86
+#: Controller/TagsController.php:44;79
+msgid "The %s has been saved"
+msgstr ""
+
+#: Controller/AppSettingsController.php:44
+#: Controller/AttachmentsController.php:55;90
+#: Controller/IdeaResponseRatingsController.php:54;92
+#: Controller/IdeaResponsesController.php:112
+#: Controller/IdeaTagsController.php:57;96
+#: Controller/TagsController.php:54;89
+msgid "The %s could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/AttachmentsController.php:30;45;55;75;80;90;115;119;129
+msgid "attachment"
+msgstr ""
+
+#: Controller/AttachmentsController.php:119
+#: Controller/IdeaResponseRatingsController.php:124
+#: Controller/IdeaResponsesController.php:47
+#: Controller/IdeaTagsController.php:129
+#: Controller/TagsController.php:118
+msgid "The %s deleted"
+msgstr ""
+
+#: Controller/AttachmentsController.php:129
+#: Controller/IdeaResponseRatingsController.php:134
+#: Controller/IdeaResponsesController.php:57
+#: Controller/IdeaTagsController.php:139
+#: Controller/TagsController.php:128
+msgid "The %s was not deleted"
+msgstr ""
+
+#: Controller/IdeaResponseRatingsController.php:29;44;54;77;82;92;120;124;134
+msgid "idea response rating"
+msgstr ""
+
+#: Controller/IdeaResponsesController.php:43;47;57;79;112
+msgid "idea response"
+msgstr ""
+
+#: Controller/IdeaResponsesController.php:92
+msgid "'%s' has a new-arrival comment."
+msgstr ""
+
+#: Controller/IdeaResponsesController.php:122
+#: Controller/IdeasController.php:118;255;309
+msgid "Invalid idea"
+msgstr ""
+
+#: Controller/IdeaTagsController.php:32;47;57;81;86;96;125;129;139
+#: View/Ideas/board.ctp:27
+#: View/Ideas/index.ctp:65
+msgid "idea tag"
+msgstr ""
+
+#: Controller/IdeasController.php:220;275
+msgid "The idea has been saved"
+msgstr ""
+
+#: Controller/IdeasController.php:223;278
+msgid "The idea could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/IdeasController.php:316
+msgid "Idea deleted"
+msgstr ""
+
+#: Controller/IdeasController.php:320
+msgid "Idea was not deleted"
+msgstr ""
+
+#: Controller/IdeasController.php:335
+#: Controller/UsersController.php:76;88;143;177;210
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/IdeasController.php:344
+#: Controller/UsersController.php:65;158;186
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/IdeasController.php:347
+#: Controller/UsersController.php:68;161;189
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InputItemsController.php:42;76;104
+msgid "Invalid input item"
+msgstr ""
+
+#: Controller/InputItemsController.php:57;80
+msgid "The input item has been saved"
+msgstr ""
+
+#: Controller/InputItemsController.php:60;83
+msgid "The input item could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InputItemsController.php:108
+msgid "Input item deleted"
+msgstr ""
+
+#: Controller/InputItemsController.php:111
+msgid "Input item was not deleted"
+msgstr ""
+
+#: Controller/RolesController.php:29;61;87
+msgid "Invalid role"
+msgstr ""
+
+#: Controller/RolesController.php:44;65
+msgid "The role has been saved"
+msgstr ""
+
+#: Controller/RolesController.php:47;68
+msgid "The role could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RolesController.php:91
+msgid "Role deleted"
+msgstr ""
+
+#: Controller/RolesController.php:94
+msgid "Role was not deleted"
+msgstr ""
+
+#: Controller/StatusesController.php:85;106;159;184;210;238
+msgid "The status has been saved"
+msgstr ""
+
+#: Controller/StatusesController.php:88;109;165;190;216;244
+msgid "The status could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StatusesController.php:102;129;154;178;203;230
+msgid "Invalid status"
+msgstr ""
+
+#: Controller/StatusesController.php:138
+msgid "Status deleted"
+msgstr ""
+
+#: Controller/StatusesController.php:142
+msgid "Status was not deleted"
+msgstr ""
+
+#: Controller/TagsController.php:29;44;54;74;79;89;114;118;128
+msgid "tag"
+msgstr ""
+
+#: Controller/UsersController.php:217
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:220
+msgid "User was not deleted"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:10
+msgid "Set theme to place Bootstrap files in."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:15
+msgid "Set file output to webroot Theme dir (use with theme option)."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:22
+msgid "TwitterBootstrap Copy Shell Help."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:29
+msgid "Copies Less, Js & Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:31
+msgid "files will be placed in webroot of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:39
+msgid "Copies Less source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:41
+msgid "files will be placed in webroot/css/lib/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:49
+msgid "Copies Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:51
+msgid "files will be placed in webroot/img/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:59
+msgid "Copies Js source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:61
+msgid "files will be placed in webroot/js/lib of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:108
+msgid "Success."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:110
+msgid "Error!"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:18
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:24
+msgid "Alert notice message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:27
+msgid "Alert success message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:31
+msgid "Alert error message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:6
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:54
+msgid "Columbus - ChanceLab's Idea Manager"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:57
+#: View/Ideas/admin_index.ctp:54
+#: View/Ideas/admin_view.ctp:52
+#: View/Ideas/board.ctp:21
+#: View/Ideas/index.ctp:57
+#: View/Layouts/twitter_bootstrap.ctp:68;79
+msgid "New Idea"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:58
+#: View/Layouts/twitter_bootstrap.ctp:73;86
+msgid "Logout"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:59
+#: View/Layouts/twitter_bootstrap.ctp:72;85
+msgid "MyProfile"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:61
+#: View/Layouts/twitter_bootstrap.ctp:70;83
+msgid "Setting"
+msgstr ""
+
+#: View/Admin/menu.ctp:7
+#: View/AppSettings/admin_edit.ctp:5
+#: View/Layouts/admin.ctp:73;75
+msgid "App Setting"
+msgstr ""
+
+#: View/Admin/menu.ctp:16
+#: View/Layouts/admin.ctp:76
+msgid "Manage Status"
+msgstr ""
+
+#: View/Admin/menu.ctp:34
+#: View/Layouts/admin.ctp:83
+msgid "Manage User"
+msgstr ""
+
+#: View/Admin/menu.ctp:43
+#: View/Layouts/admin.ctp:84
+msgid "Manage Input Item"
+msgstr ""
+
+#: View/Admin/menu.ctp:52
+#: View/Layouts/admin.ctp:85
+msgid "Manage Tag"
+msgstr ""
+
+#: View/Admin/menu.ctp:61
+#: View/Layouts/admin.ctp:86
+msgid "Manage File"
+msgstr ""
+
+#: View/Admin/menu.ctp:70
+#: View/Attachments/admin_add.ctp:17;18
+#: View/Attachments/admin_edit.ctp:19;20
+#: View/Attachments/admin_index.ctp:2
+#: View/Attachments/admin_view.ctp:33;35
+#: View/IdeaResponseRatings/add.ctp:25;26;28
+#: View/IdeaResponseRatings/edit.ctp:27;28;30
+#: View/IdeaResponseRatings/index.ctp:3;47;49
+#: View/IdeaResponseRatings/view.ctp:43;45;47
+#: View/IdeaResponses/admin_index.ctp:12
+#: View/IdeaResponses/index.ctp:3;47;49;51
+#: View/IdeaResponses/view.ctp:43;45;47;49
+#: View/InputItems/admin_add.ctp:26;27
+#: View/InputItems/admin_edit.ctp:28;29
+#: View/InputItems/admin_index.ctp:3
+#: View/InputItems/admin_view.ctp:43
+#: View/Layouts/admin.ctp:87
+#: View/Statuses/admin_add.ctp:18
+#: View/Statuses/admin_edit.ctp:20
+#: View/Statuses/admin_index.ctp:3
+#: View/Statuses/admin_workflow.ctp:35
+#: View/Tags/admin_add.ctp:17;18
+#: View/Tags/admin_edit.ctp:19;20
+#: View/Tags/admin_index.ctp:3
+#: View/Tags/admin_view.ctp:33;35
+#: View/Users/admin_add.ctp:45
+#: View/Users/admin_edit.ctp:48
+#: View/Users/admin_index.ctp:3
+#: View/Users/admin_view.ctp:58
+msgid "List %s"
+msgstr ""
+
+#: View/Admin/menu.ctp:70
+#: View/IdeaResponseRatings/add.ctp:26
+#: View/IdeaResponseRatings/edit.ctp:28
+#: View/IdeaResponseRatings/index.ctp:47
+#: View/IdeaResponseRatings/view.ctp:45
+#: View/IdeaResponses/admin_index.ctp:12
+#: View/IdeaResponses/index.ctp:3
+#: View/IdeaResponses/view.ctp:43
+#: View/Layouts/admin.ctp:87
+#: View/Users/admin_view.ctp:149
+msgid "Idea Responses"
+msgstr ""
+
+#: View/AppSettings/admin_edit.ctp:9
+#: View/IdeaResponseRatings/add.ctp:9;14
+#: View/IdeaResponseRatings/edit.ctp:9;14
+#: View/IdeaResponses/edit.ctp:8
+#: View/InputItems/admin_add.ctp:9;13
+#: View/InputItems/admin_edit.ctp:9;13
+#: View/Users/admin_add.ctp:9;13;18;22;26;30
+#: View/Users/admin_edit.ctp:9;23;27;31
+#: View/Users/signup.ctp:9;13;18;22;26;32
+msgid "Required"
+msgstr ""
+
+#: View/AppSettings/admin_edit.ctp:23
+#: View/Attachments/admin_add.ctp:9
+#: View/Attachments/admin_edit.ctp:10
+#: View/IdeaResponseRatings/add.ctp:17
+#: View/IdeaResponseRatings/edit.ctp:18
+#: View/IdeaResponses/add.ctp:19
+#: View/IdeaResponses/edit.ctp:14
+#: View/Ideas/add.ctp:33
+#: View/Ideas/admin_add.ctp:13
+#: View/Ideas/admin_edit.ctp:14
+#: View/Ideas/edit.ctp:40
+#: View/Ideas/useredit.ctp:14
+#: View/InputItems/admin_add.ctp:18
+#: View/InputItems/admin_edit.ctp:19
+#: View/Roles/admin_add.ctp:9
+#: View/Roles/admin_edit.ctp:10
+#: View/Statuses/admin_add.ctp:10
+#: View/Statuses/admin_edit.ctp:11
+#: View/Tags/admin_add.ctp:9
+#: View/Tags/admin_edit.ctp:10
+#: View/Users/admin_add.ctp:37
+#: View/Users/admin_edit.ctp:39
+#: View/Users/signup.ctp:36
+msgid "Submit"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:5
+#: View/InputItems/admin_add.ctp:5
+#: View/Statuses/admin_add.ctp:5
+#: View/Tags/admin_add.ctp:5
+#: View/Users/admin_add.ctp:5
+msgid "Admin Add %s"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:5
+#: View/Attachments/admin_edit.ctp:5
+#: View/Attachments/admin_view.ctp:3;31;32;34
+msgid "Attachment"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:16
+#: View/Attachments/admin_edit.ctp:17
+#: View/Attachments/admin_index.ctp:16
+#: View/Attachments/admin_view.ctp:30;54
+#: View/IdeaResponseRatings/add.ctp:24
+#: View/IdeaResponseRatings/edit.ctp:25
+#: View/IdeaResponseRatings/index.ctp:17;45
+#: View/IdeaResponseRatings/view.ctp:40
+#: View/IdeaResponses/admin_index.ctp:24
+#: View/IdeaResponses/index.ctp:17;45
+#: View/IdeaResponses/view.ctp:40;68
+#: View/Ideas/admin_add.ctp:16
+#: View/Ideas/admin_edit.ctp:17
+#: View/Ideas/admin_index.ctp:13;52
+#: View/Ideas/admin_view.ctp:47;76;115;154
+#: View/Ideas/index.ctp:83
+#: View/InputItems/admin_add.ctp:25
+#: View/InputItems/admin_edit.ctp:26
+#: View/InputItems/admin_index.ctp:16;39
+#: View/InputItems/admin_view.ctp:40;62
+#: View/Roles/admin_add.ctp:12
+#: View/Roles/admin_edit.ctp:13
+#: View/Roles/admin_index.ctp:9;40
+#: View/Roles/admin_view.ctp:27;53
+#: View/Statuses/admin_add.ctp:17
+#: View/Statuses/admin_edit.ctp:18
+#: View/Statuses/admin_index.ctp:15;45
+#: View/Statuses/admin_workflow.ctp:34
+#: View/Tags/admin_add.ctp:16
+#: View/Tags/admin_edit.ctp:17
+#: View/Tags/admin_index.ctp:15;37
+#: View/Tags/admin_view.ctp:30;54
+#: View/Users/admin_add.ctp:44
+#: View/Users/admin_edit.ctp:46
+#: View/Users/admin_index.ctp:23;70
+#: View/Users/admin_view.ctp:55;79;120;159;198
+msgid "Actions"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:17
+#: View/Attachments/admin_edit.ctp:19
+#: View/Attachments/admin_index.ctp:2
+#: View/Attachments/admin_view.ctp:33
+msgid "Attachments"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:18
+#: View/Attachments/admin_edit.ctp:20
+#: View/Attachments/admin_view.ctp:35;44
+msgid "Idea Attachments"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:19
+#: View/Attachments/admin_edit.ctp:21
+#: View/Attachments/admin_view.ctp:34;36;77
+#: View/IdeaResponseRatings/add.ctp:27;29
+#: View/IdeaResponseRatings/edit.ctp:29;31
+#: View/IdeaResponseRatings/index.ctp:46;48;50
+#: View/IdeaResponseRatings/view.ctp:44;46;48
+#: View/IdeaResponses/index.ctp:46;48;50;52
+#: View/IdeaResponses/view.ctp:44;46;48;50;91
+#: View/InputItems/admin_add.ctp:28
+#: View/InputItems/admin_edit.ctp:30
+#: View/InputItems/admin_index.ctp:40
+#: View/InputItems/admin_view.ctp:44;85
+#: View/Statuses/admin_index.ctp:46
+#: View/Tags/admin_add.ctp:19
+#: View/Tags/admin_edit.ctp:21
+#: View/Tags/admin_index.ctp:38
+#: View/Tags/admin_view.ctp:34;36;77
+#: View/Users/admin_index.ctp:71
+#: View/Users/admin_view.ctp:59;104;143;182;221
+msgid "New %s"
+msgstr ""
+
+#: View/Attachments/admin_add.ctp:19
+#: View/Attachments/admin_edit.ctp:21
+#: View/Attachments/admin_view.ctp:36;77
+msgid "Idea Attachment"
+msgstr ""
+
+#: View/Attachments/admin_edit.ctp:5
+#: View/InputItems/admin_edit.ctp:5
+#: View/Statuses/admin_edit.ctp:5
+#: View/Tags/admin_edit.ctp:5
+#: View/Users/admin_edit.ctp:5
+msgid "Admin Edit %s"
+msgstr ""
+
+#: View/Attachments/admin_edit.ctp:18
+#: View/Attachments/admin_index.ctp:27
+#: View/Attachments/admin_view.ctp:67
+#: View/IdeaResponseRatings/edit.ctp:26
+#: View/IdeaResponseRatings/index.ctp:34
+#: View/IdeaResponses/admin_index.ctp:38
+#: View/IdeaResponses/index.ctp:34
+#: View/IdeaResponses/view.ctp:81
+#: View/Ideas/admin_edit.ctp:20
+#: View/Ideas/admin_index.ctp:32
+#: View/Ideas/admin_view.ctp:91;130;169
+#: View/Ideas/index.ctp:141
+#: View/Ideas/view.ctp:189
+#: View/InputItems/admin_edit.ctp:27
+#: View/InputItems/admin_index.ctp:28
+#: View/InputItems/admin_view.ctp:75
+#: View/Roles/admin_edit.ctp:16
+#: View/Roles/admin_index.ctp:20
+#: View/Roles/admin_view.ctp:73
+#: View/Statuses/admin_edit.ctp:19
+#: View/Statuses/admin_index.ctp:28
+#: View/Tags/admin_edit.ctp:18
+#: View/Tags/admin_index.ctp:26
+#: View/Tags/admin_view.ctp:67
+#: View/Users/admin_edit.ctp:47
+#: View/Users/admin_index.ctp:59
+#: View/Users/admin_view.ctp:94;133;172;211
+msgid "Delete"
+msgstr ""
+
+#: View/Attachments/admin_edit.ctp:18
+#: View/Attachments/admin_index.ctp:27
+#: View/Attachments/admin_view.ctp:32;67
+#: View/IdeaResponseRatings/edit.ctp:26
+#: View/IdeaResponseRatings/index.ctp:34
+#: View/IdeaResponseRatings/view.ctp:42
+#: View/IdeaResponses/admin_index.ctp:38
+#: View/IdeaResponses/index.ctp:34
+#: View/IdeaResponses/view.ctp:42;81
+#: View/Ideas/admin_edit.ctp:20
+#: View/Ideas/admin_index.ctp:32
+#: View/Ideas/admin_view.ctp:50;91;130;169
+#: View/Ideas/index.ctp:141
+#: View/Ideas/view.ctp:192
+#: View/Ideas/viewinline.ctp:115
+#: View/InputItems/admin_edit.ctp:27
+#: View/InputItems/admin_index.ctp:28
+#: View/InputItems/admin_view.ctp:42;75
+#: View/Roles/admin_edit.ctp:16
+#: View/Roles/admin_index.ctp:20
+#: View/Roles/admin_view.ctp:30;73
+#: View/Statuses/admin_edit.ctp:19
+#: View/Statuses/admin_index.ctp:28
+#: View/Tags/admin_edit.ctp:18
+#: View/Tags/admin_index.ctp:26
+#: View/Tags/admin_view.ctp:32;67
+#: View/Users/admin_edit.ctp:47
+#: View/Users/admin_index.ctp:59
+#: View/Users/admin_view.ctp:57;94;133;172;211
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Attachments/admin_index.ctp:5
+#: View/IdeaResponseRatings/index.ctp:6
+#: View/IdeaResponses/admin_index.ctp:14
+#: View/IdeaResponses/index.ctp:6
+#: View/Ideas/admin_index.ctp:40
+#: View/Ideas/board.ctp:35
+#: View/Ideas/index.ctp:151
+#: View/Ideas/view.ctp:167
+#: View/Ideas/viewinline.ctp:182
+#: View/InputItems/admin_index.ctp:6
+#: View/Roles/admin_index.ctp:28
+#: View/Statuses/admin_index.ctp:6
+#: View/Tags/admin_index.ctp:6
+#: View/Users/admin_index.ctp:6
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:5;48
+#: View/IdeaResponseRatings/view.ctp:5
+#: View/IdeaResponses/view.ctp:5;62
+#: View/Ideas/admin_view.ctp:4;70;109;148
+#: View/InputItems/admin_view.ctp:5;56
+#: View/Roles/admin_view.ctp:4;42
+#: View/Tags/admin_view.ctp:5;48
+#: View/Users/admin_view.ctp:5;71;114;153;192
+msgid "Id"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:10
+#: View/Ideas/index.ctp:72
+#: View/InputItems/admin_view.ctp:10
+#: View/Roles/admin_view.ctp:9
+#: View/Tags/admin_view.ctp:10
+msgid "Name"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:15;52
+#: View/IdeaResponseRatings/view.ctp:25
+#: View/IdeaResponses/view.ctp:25;66
+#: View/Ideas/admin_view.ctp:34;74;113;152
+#: View/Ideas/view.ctp:89
+#: View/Ideas/viewinline.ctp:93
+#: View/InputItems/admin_view.ctp:25;60
+#: View/Roles/admin_view.ctp:14;51
+#: View/Tags/admin_view.ctp:15;52
+#: View/Users/admin_view.ctp:40;77;118;157;196
+msgid "Created"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:20;53
+#: View/IdeaResponseRatings/view.ctp:30
+#: View/IdeaResponses/view.ctp:30;67
+#: View/Ideas/admin_view.ctp:39;75;114;153
+#: View/Ideas/index.ctp:78
+#: View/Ideas/view.ctp:94
+#: View/Ideas/viewinline.ctp:98
+#: View/InputItems/admin_view.ctp:30;61
+#: View/Roles/admin_view.ctp:19;52
+#: View/Tags/admin_view.ctp:20;53
+#: View/Users/admin_view.ctp:45;78;119;158;197
+msgid "Modified"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:31
+#: View/IdeaResponseRatings/edit.ctp:5
+#: View/IdeaResponseRatings/view.ctp:41
+#: View/IdeaResponses/edit.ctp:4
+#: View/IdeaResponses/view.ctp:41
+#: View/InputItems/admin_view.ctp:41
+#: View/Tags/admin_view.ctp:31
+#: View/Users/admin_view.ctp:56
+msgid "Edit %s"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:32
+#: View/IdeaResponseRatings/view.ctp:42
+#: View/IdeaResponses/view.ctp:42
+#: View/InputItems/admin_view.ctp:42
+#: View/Tags/admin_view.ctp:32
+#: View/Users/admin_view.ctp:57
+msgid "Delete %s"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:44
+#: View/IdeaResponses/view.ctp:58
+#: View/InputItems/admin_view.ctp:52
+#: View/Tags/admin_view.ctp:44
+#: View/Users/admin_view.ctp:67;110;149;188
+msgid "Related %s"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:49
+#: View/Ideas/admin_view.ctp:71;110;149
+#: View/InputItems/admin_view.ctp:57
+#: View/Tags/admin_view.ctp:49
+#: View/Users/admin_view.ctp:115;154
+msgid "Idea Id"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:50
+msgid "Attachment Id"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:51
+#: View/IdeaResponses/view.ctp:64
+#: View/Ideas/admin_view.ctp:111;150
+#: View/Tags/admin_view.ctp:51
+#: View/Users/admin_view.ctp:72;116;155;194
+msgid "User Id"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:65
+#: View/IdeaResponseRatings/index.ctp:32
+#: View/IdeaResponses/index.ctp:32
+#: View/IdeaResponses/view.ctp:79
+#: View/Ideas/admin_index.ctp:30
+#: View/Ideas/admin_view.ctp:89;128;167
+#: View/Ideas/index.ctp:128
+#: View/InputItems/admin_index.ctp:26
+#: View/InputItems/admin_view.ctp:73
+#: View/Roles/admin_index.ctp:18
+#: View/Roles/admin_view.ctp:71
+#: View/Tags/admin_index.ctp:24
+#: View/Tags/admin_view.ctp:65
+#: View/Users/admin_index.ctp:57
+#: View/Users/admin_view.ctp:92;131;170;209
+msgid "View"
+msgstr ""
+
+#: View/Attachments/admin_view.ctp:66
+#: View/IdeaResponseRatings/index.ctp:33
+#: View/IdeaResponses/index.ctp:33
+#: View/IdeaResponses/view.ctp:80
+#: View/Ideas/admin_index.ctp:31
+#: View/Ideas/admin_view.ctp:90;129;168
+#: View/Ideas/index.ctp:132
+#: View/Ideas/view.ctp:183
+#: View/InputItems/admin_index.ctp:27
+#: View/InputItems/admin_view.ctp:74
+#: View/Roles/admin_index.ctp:19
+#: View/Roles/admin_view.ctp:72
+#: View/Statuses/admin_index.ctp:27
+#: View/Tags/admin_index.ctp:25
+#: View/Tags/admin_view.ctp:66
+#: View/Users/admin_index.ctp:58
+#: View/Users/admin_view.ctp:93;132;171;210
+msgid "Edit"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:5
+#: View/IdeaResponses/add.ctp:4
+msgid "Add %s"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:5
+#: View/IdeaResponseRatings/edit.ctp:5
+#: View/IdeaResponseRatings/index.ctp:46
+#: View/IdeaResponseRatings/view.ctp:3;41;42;44
+#: View/IdeaResponses/index.ctp:52
+#: View/IdeaResponses/view.ctp:50;91
+#: View/Users/admin_view.ctp:221
+msgid "Idea Response Rating"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:25
+#: View/IdeaResponseRatings/edit.ctp:27
+#: View/IdeaResponseRatings/index.ctp:3
+#: View/IdeaResponseRatings/view.ctp:43
+#: View/IdeaResponses/index.ctp:51
+#: View/IdeaResponses/view.ctp:49;58
+#: View/Users/admin_view.ctp:188
+msgid "Idea Response Ratings"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:27
+#: View/IdeaResponseRatings/edit.ctp:29
+#: View/IdeaResponseRatings/index.ctp:48
+#: View/IdeaResponseRatings/view.ctp:10;46
+#: View/IdeaResponses/edit.ctp:4
+#: View/IdeaResponses/index.ctp:46
+#: View/IdeaResponses/view.ctp:3;41;42;44
+#: View/Users/admin_view.ctp:182
+msgid "Idea Response"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:28
+#: View/IdeaResponseRatings/edit.ctp:30
+#: View/IdeaResponseRatings/index.ctp:49
+#: View/IdeaResponseRatings/view.ctp:47
+#: View/IdeaResponses/index.ctp:49
+#: View/IdeaResponses/view.ctp:47
+#: View/Users/admin_add.ctp:45
+#: View/Users/admin_edit.ctp:48
+#: View/Users/admin_index.ctp:3
+#: View/Users/admin_view.ctp:58
+msgid "Users"
+msgstr ""
+
+#: View/IdeaResponseRatings/add.ctp:29
+#: View/IdeaResponseRatings/edit.ctp:31
+#: View/IdeaResponseRatings/index.ctp:50
+#: View/IdeaResponseRatings/view.ctp:15;48
+#: View/IdeaResponses/index.ctp:50
+#: View/IdeaResponses/view.ctp:15;48
+#: View/Ideas/admin_view.ctp:9
+#: View/Ideas/view.ctp:37
+#: View/Ideas/viewinline.ctp:47
+#: View/Users/admin_add.ctp:5
+#: View/Users/admin_edit.ctp:5
+#: View/Users/admin_index.ctp:71
+#: View/Users/admin_view.ctp:3;56;57;59
+msgid "User"
+msgstr ""
+
+#: View/IdeaResponseRatings/view.ctp:20
+#: View/IdeaResponses/view.ctp:65
+#: View/Ideas/admin_view.ctp:112
+#: View/Users/admin_view.ctp:117;195
+msgid "Rating"
+msgstr ""
+
+#: View/IdeaResponses/add.ctp:4
+#: View/Ideas/index.ctp:136
+#: View/InputItems/admin_view.ctp:20
+#: View/Roles/admin_view.ctp:49
+#: View/Users/admin_view.ctp:35
+msgid "Comment"
+msgstr ""
+
+#: View/IdeaResponses/add.ctp:18
+msgid "Close"
+msgstr ""
+
+#: View/IdeaResponses/admin_index.ctp:50;56
+#: View/Ideas/board.ctp:28
+#: View/Ideas/index.ctp:39;66
+msgid "Search"
+msgstr ""
+
+#: View/IdeaResponses/index.ctp:47
+#: View/IdeaResponses/view.ctp:45
+#: View/Ideas/admin_index.ctp:2
+#: View/Layouts/admin.ctp:94
+#: View/Users/admin_view.ctp:67
+msgid "Ideas"
+msgstr ""
+
+#: View/IdeaResponses/index.ctp:48
+#: View/IdeaResponses/view.ctp:10;46
+#: View/Ideas/admin_view.ctp:2
+#: View/Ideas/view.ctp:8
+#: View/Ideas/viewinline.ctp:24
+#: View/Users/admin_view.ctp:104
+msgid "Idea"
+msgstr ""
+
+#: View/IdeaResponses/view.ctp:20
+#: View/Ideas/admin_view.ctp:24;73;151
+#: View/Ideas/index.ctp:76
+#: View/Ideas/view.ctp:54
+#: View/Ideas/viewinline.ctp:65
+#: View/InputItems/admin_view.ctp:59
+#: View/Users/admin_view.ctp:75;156
+msgid "Body"
+msgstr ""
+
+#: View/IdeaResponses/view.ctp:63
+#: View/Users/admin_view.ctp:193
+msgid "Idea Response Id"
+msgstr ""
+
+#: View/Ideas/add.ctp:8
+msgid "Add Idea"
+msgstr ""
+
+#: View/Ideas/add.ctp:47
+#: View/Ideas/edit.ctp:54
+msgid "Session Timeout"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:4
+msgid "Admin Add Idea"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:19
+#: View/Ideas/admin_edit.ctp:21
+#: View/Ideas/admin_view.ctp:51
+msgid "List Ideas"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:20
+#: View/Ideas/admin_edit.ctp:22
+#: View/Ideas/admin_index.ctp:55
+#: View/Ideas/admin_view.ctp:53
+#: View/Roles/admin_add.ctp:16
+#: View/Roles/admin_edit.ctp:18
+#: View/Roles/admin_index.ctp:43
+#: View/Roles/admin_view.ctp:33
+msgid "List Users"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:21
+#: View/Ideas/admin_edit.ctp:23
+#: View/Ideas/admin_index.ctp:56
+#: View/Ideas/admin_view.ctp:54
+#: View/Roles/admin_add.ctp:17
+#: View/Roles/admin_edit.ctp:19
+#: View/Roles/admin_index.ctp:44
+#: View/Roles/admin_view.ctp:34;82
+msgid "New User"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:22
+#: View/Ideas/admin_edit.ctp:24
+#: View/Ideas/admin_index.ctp:57
+#: View/Ideas/admin_view.ctp:55
+msgid "List Statuses"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:23
+#: View/Ideas/admin_edit.ctp:25
+#: View/Ideas/admin_index.ctp:58
+#: View/Ideas/admin_view.ctp:56
+msgid "New Status"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:24
+#: View/Ideas/admin_edit.ctp:26
+#: View/Ideas/admin_index.ctp:59
+#: View/Ideas/admin_view.ctp:57
+msgid "List Idea Add Inputs"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:25
+#: View/Ideas/admin_edit.ctp:27
+#: View/Ideas/admin_index.ctp:60
+#: View/Ideas/admin_view.ctp:58;100
+msgid "New Idea Add Input"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:26
+#: View/Ideas/admin_edit.ctp:28
+#: View/Ideas/admin_index.ctp:61
+#: View/Ideas/admin_view.ctp:59
+msgid "List Idea Ratings"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:27
+#: View/Ideas/admin_edit.ctp:29
+#: View/Ideas/admin_index.ctp:62
+#: View/Ideas/admin_view.ctp:60;139
+msgid "New Idea Rating"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:28
+#: View/Ideas/admin_edit.ctp:30
+#: View/Ideas/admin_index.ctp:63
+#: View/Ideas/admin_view.ctp:61
+msgid "List Idea Responses"
+msgstr ""
+
+#: View/Ideas/admin_add.ctp:29
+#: View/Ideas/admin_edit.ctp:31
+#: View/Ideas/admin_index.ctp:64
+#: View/Ideas/admin_view.ctp:62;178
+#: View/Ideas/viewinline.ctp:194
+msgid "New Idea Response"
+msgstr ""
+
+#: View/Ideas/admin_edit.ctp:4
+msgid "Admin Edit Idea"
+msgstr ""
+
+#: View/Ideas/admin_index.ctp:45
+#: View/Ideas/board.ctp:41
+#: View/Ideas/view.ctp:172
+#: View/Ideas/viewinline.ctp:186
+#: View/Roles/admin_index.ctp:33
+msgid "previous"
+msgstr ""
+
+#: View/Ideas/admin_index.ctp:47
+#: View/Ideas/board.ctp:43
+#: View/Ideas/view.ctp:174
+#: View/Ideas/viewinline.ctp:188
+#: View/Roles/admin_index.ctp:35
+msgid "next"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:14
+#: View/Ideas/index.ctp:73
+#: View/Ideas/view.ctp:43
+#: View/Ideas/viewinline.ctp:53
+#: View/Statuses/admin_add.ctp:5
+#: View/Statuses/admin_edit.ctp:5
+#: View/Statuses/admin_index.ctp:46
+msgid "Status"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:19
+#: View/Ideas/index.ctp:74
+#: View/Ideas/view.ctp:48
+#: View/Ideas/viewinline.ctp:58
+#: View/Users/admin_view.ctp:74
+msgid "Title"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:29
+#: View/Roles/admin_view.ctp:50
+#: View/Users/admin_view.ctp:76
+msgid "Delete Flg"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:49
+#: View/Ideas/edit.ctp:6
+#: View/Ideas/view.ctp:182
+#: View/Ideas/viewinline.ctp:109
+msgid "Edit Idea"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:50
+#: View/Ideas/view.ctp:188
+#: View/Ideas/viewinline.ctp:115
+msgid "Delete Idea"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:66
+msgid "Related Idea Add Inputs"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:72
+#: View/InputItems/admin_view.ctp:58
+msgid "Input Item Id"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:105
+#: View/Ideas/view.ctp:104
+#: View/Ideas/viewinline.ctp:122
+msgid "Related Idea Ratings"
+msgstr ""
+
+#: View/Ideas/admin_view.ctp:144
+#: View/Ideas/view.ctp:129
+#: View/Ideas/viewinline.ctp:145
+msgid "Related Idea Responses"
+msgstr ""
+
+#: View/Ideas/board.ctp:16
+msgid "Home"
+msgstr ""
+
+#: View/Ideas/board.ctp:17
+#: View/Ideas/index.ctp:52
+msgid "Board"
+msgstr ""
+
+#: View/Ideas/index.ctp:71
+msgid "ID"
+msgstr ""
+
+#: View/Ideas/index.ctp:80
+msgid "Votes"
+msgstr ""
+
+#: View/Ideas/index.ctp:81
+msgid "CommentCount"
+msgstr ""
+
+#: View/Ideas/index.ctp:111
+msgid "【最新コメント】"
+msgstr ""
+
+#: View/Ideas/index.ctp:112
+msgid "投稿日"
+msgstr ""
+
+#: View/Ideas/index.ctp:113
+msgid "投稿者"
+msgstr ""
+
+#: View/Ideas/index.ctp:114
+msgid "コメント"
+msgstr ""
+
+#: View/Ideas/useredit.ctp:4
+msgid "My Profile"
+msgstr ""
+
+#: View/Ideas/view.ctp:10
+#: View/Ideas/viewinline.ctp:26
+#: View/Tags/admin_add.ctp:5
+#: View/Tags/admin_edit.ctp:5
+#: View/Tags/admin_index.ctp:38
+#: View/Tags/admin_view.ctp:3;31;32;34
+msgid "Tag"
+msgstr ""
+
+#: View/Ideas/view.ctp:17
+#: View/Ideas/viewinline.ctp:32
+msgid "AddTag"
+msgstr ""
+
+#: View/Ideas/view.ctp:76
+msgid "Attachment Files"
+msgstr ""
+
+#: View/Ideas/view.ctp:196
+msgid "Comment Idea"
+msgstr ""
+
+#: View/InputItems/admin_add.ctp:5
+#: View/InputItems/admin_edit.ctp:5
+#: View/InputItems/admin_index.ctp:40
+#: View/InputItems/admin_view.ctp:3;41;42;44
+msgid "Input Item"
+msgstr ""
+
+#: View/InputItems/admin_add.ctp:26
+#: View/InputItems/admin_edit.ctp:28
+#: View/InputItems/admin_index.ctp:3
+#: View/InputItems/admin_view.ctp:43
+msgid "Input Items"
+msgstr ""
+
+#: View/InputItems/admin_add.ctp:27
+#: View/InputItems/admin_edit.ctp:29
+#: View/InputItems/admin_view.ctp:52
+msgid "Idea Add Inputs"
+msgstr ""
+
+#: View/InputItems/admin_add.ctp:28
+#: View/InputItems/admin_edit.ctp:30
+#: View/InputItems/admin_view.ctp:85
+msgid "Idea Add Input"
+msgstr ""
+
+#: View/InputItems/admin_view.ctp:15
+msgid "Type"
+msgstr ""
+
+#: View/Layouts/admin.ctp:77
+msgid "ACL"
+msgstr ""
+
+#: View/Layouts/admin.ctp:81
+msgid "Manage Data"
+msgstr ""
+
+#: View/Layouts/admin.ctp:95
+msgid "logout"
+msgstr ""
+
+#: View/Layouts/twitter_bootstrap.ctp:66
+#: View/Statuses/admin_index.ctp:25
+msgid "Menu"
+msgstr ""
+
+#: View/Layouts/twitter_bootstrap.ctp:89
+msgid "Notice"
+msgstr ""
+
+#: View/Roles/admin_add.ctp:4
+msgid "Admin Add Role"
+msgstr ""
+
+#: View/Roles/admin_add.ctp:15
+#: View/Roles/admin_edit.ctp:17
+#: View/Roles/admin_view.ctp:31
+msgid "List Roles"
+msgstr ""
+
+#: View/Roles/admin_edit.ctp:4
+msgid "Admin Edit Role"
+msgstr ""
+
+#: View/Roles/admin_index.ctp:2
+msgid "Roles"
+msgstr ""
+
+#: View/Roles/admin_index.ctp:42
+#: View/Roles/admin_view.ctp:32
+msgid "New Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:2
+#: View/Users/admin_view.ctp:15
+msgid "Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:29
+msgid "Edit Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:30
+msgid "Delete Role"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:38
+msgid "Related Users"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:43
+#: View/Users/admin_view.ctp:10
+msgid "Username"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:44
+msgid "Password"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:45
+msgid "Role Id"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:46
+#: View/Users/admin_view.ctp:20
+msgid "Last Name"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:47
+#: View/Users/admin_view.ctp:25
+msgid "First Name"
+msgstr ""
+
+#: View/Roles/admin_view.ctp:48
+#: View/Users/admin_view.ctp:30
+msgid "Email Address"
+msgstr ""
+
+#: View/Statuses/admin_add.ctp:18
+#: View/Statuses/admin_edit.ctp:20
+#: View/Statuses/admin_index.ctp:3
+#: View/Statuses/admin_workflow.ctp:9;35
+msgid "Statuses"
+msgstr ""
+
+#: View/Statuses/admin_index.ctp:29
+msgid "Default Status"
+msgstr ""
+
+#: View/Statuses/admin_index.ctp:30
+msgid "Close Status"
+msgstr ""
+
+#: View/Statuses/admin_index.ctp:31
+msgid "Up Order"
+msgstr ""
+
+#: View/Statuses/admin_index.ctp:32
+msgid "Down Order"
+msgstr ""
+
+#: View/Statuses/admin_index.ctp:47
+#: View/Statuses/admin_workflow.ctp:4
+msgid "Status Workflow"
+msgstr ""
+
+#: View/Statuses/admin_workflow.ctp:9
+msgid "Now %s"
+msgstr ""
+
+#: View/Statuses/admin_workflow.ctp:10
+msgid "Allow Shift Status"
+msgstr ""
+
+#: View/Tags/admin_add.ctp:17
+#: View/Tags/admin_edit.ctp:19
+#: View/Tags/admin_index.ctp:3
+#: View/Tags/admin_view.ctp:33
+msgid "Tags"
+msgstr ""
+
+#: View/Tags/admin_add.ctp:18
+#: View/Tags/admin_edit.ctp:20
+#: View/Tags/admin_view.ctp:35;44
+msgid "Idea Tags"
+msgstr ""
+
+#: View/Tags/admin_add.ctp:19
+#: View/Tags/admin_edit.ctp:21
+#: View/Tags/admin_view.ctp:36;77
+msgid "Idea Tag"
+msgstr ""
+
+#: View/Tags/admin_view.ctp:50
+msgid "Tag Id"
+msgstr ""
+
+#: View/Users/admin_index.ctp:38
+msgid "APPD"
+msgstr ""
+
+#: View/Users/admin_index.ctp:40
+msgid "REJECT"
+msgstr ""
+
+#: View/Users/admin_index.ctp:42
+msgid "WAITING"
+msgstr ""
+
+#: View/Users/admin_index.ctp:48
+msgid "Approve This User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:49
+msgid "Reject This User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:73
+msgid "Status Id"
+msgstr ""
+
+#: View/Users/admin_view.ctp:110
+msgid "Idea Ratings"
+msgstr ""
+
+#: View/Users/admin_view.ctp:143
+msgid "Idea Rating"
+msgstr ""
+
+#: View/Users/login.ctp:16
+msgid "Sign up for "
+msgstr ""
+
+#: View/Users/login.ctp:17
+msgid "Register"
+msgstr ""
+
+#: View/Users/signup.ctp:5
+msgid "Signup"
+msgstr ""
+
+#: Model/AppSetting.php:validation for field title
+#: Model/Notice.php:validation for field user_id;validation for field message
+#: Model/Tag.php:validation for field name
+#: Model/User.php:validation for field password;validation for field tmp_password;validation for field last_name;validation for field first_name
+msgid "notempty"
+msgstr ""
+
+#: Model/Idea.php:validation for field status_id
+#: Model/IdeaAddInput.php:validation for field idea_id;validation for field input_item_id
+#: Model/IdeaRating.php:validation for field idea_id;validation for field rating
+#: Model/IdeaResponse.php:validation for field idea_id
+#: Model/IdeaResponseRating.php:validation for field idea_response_id;validation for field rating
+#: Model/User.php:validation for field role_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Idea.php:validation for field image
+msgid "allowExtention"
+msgstr ""
+
+#: Model/Idea.php:validation for field image
+msgid "illegalCode"
+msgstr ""
+
+#: Model/IdeaTag.php:validation for field idea_id
+msgid "アイデアに同一のタグはつけられません。"
+msgstr ""
+
+#: Model/Tag.php:validation for field name
+msgid "すでに登録されています。"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "alphanumeric"
+msgstr ""
+
+#: Model/User.php:validation for field password;validation for field tmp_password
+msgid "半角英数字で入力してください"
+msgstr ""
+
+#: Model/User.php:validation for field password;validation for field tmp_password
+msgid "40字以内にしてください。"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "両方のパスワードが一致しません。"
+msgstr ""
+
+#: Model/User.php:validation for field email_address
+msgid "すでに登録されています"
+msgstr ""
+

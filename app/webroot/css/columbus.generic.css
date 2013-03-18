@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/** Layout **/
+.top-menu {
+	margin: 30px;
+	padding: 0;
+	width: 96%;
+	min-width: 600px;
+	list-style: none outside;
+}
+.top-menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 400px;
+	min-width: 300px;
+	width: 48%;
+}
+.top-menu li a {
+	height: 60px;
+	min-width: 290px;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+.top-menu li a:hover {
+	background:#f0f0f0;
+	border-radius: 10px;            /* CSS3草案 */
+	-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;       /* Firefox用 */
+}
+.link-right {
+	float: left;
+}
+.link-title {
+	font-size: 22px;
+}
+.link-info {
+	color: #777;
+}
+.big-icon {
+	float: left;
+	width: 60px;
+	height: 100%;
+	text-align: center;
+}
+.txt-center {
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.no-actions {
+	margin-left: -20px;
+}
+
+/* sql-dump DEBUG */
+.cake-sql-log {
+    background:#000;
+    color:#FFF;
+    font-size:9.5px;
+}
+.cake-sql-log:after {
+    content : "";
+    display : block;
+    height : 0;
+    clear : both;
+}
+.cake-sql-log caption {
+    background-color:#005090;
+    color:#FFF;
+}
+.cake-sql-log:hover {
+    top:auto;
+    bottom:0;
+}
+.cake-sql-log td {
+    padding:3px;
+    border:1px solid #999;
+    background-color:#EEE;
+    color:#000;
+}
