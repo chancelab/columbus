@@ -66,6 +66,7 @@ Plz Read CakePHP Document an Setting.
 plz, exec command.  
 
 	$ cd columbus/app 
+	$ chmod -R 777 tmp
 	$ Console/cake Migrations.migration run all -p  
 
 ### After Install, ACL Plugin Database Synchronize and permission setting.
