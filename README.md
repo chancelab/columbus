@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Columbus - ChanceLab Idea Manager
 ======================
 It is CMS which the [ChanceLab. Corp.](http://www.chancelab.jp/)  developed using [CakePHP2.x](http://cakephp.org/). 
@@ -112,3 +113,9 @@ Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
 [Apache]: http://www.apache.org/licenses/LICENSE-2.0
 [MIT]: http://www.opensource.org/licenses/mit-license.php
 [GPL]: http://www.gnu.org/licenses/gpl.html
+=======
+columbus
+========
+
+ChanceLab Ideas Manager
+>>>>>>> c4913c2b1a1361c917204a1453d1dbe55440568b
