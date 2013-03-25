@@ -77,7 +77,13 @@ plz, exec command.
 ID: admin
 PW: admin
 
- 
+Trouble Shooting
+--------
+app/Config/core.php(Line:35)  
+	Prod Mode : Configure::write('debug', 0);  
+	DebugMode : Configure::write('debug', 2);  
+
+
 Use Plugin
 --------
 1. [Plugin for CakePHP2 Bootstrap](https://github.com/slywalker/TwitterBootstrap "Plugin for CakePHP2 Bootstrap")  
@@ -100,12 +106,13 @@ Original PlugIn Installer
 
 UPDATED
 ---------
-22/03/2013 Version 0.1.0 Released.  
-
+22/03/2013 Version 0.1.0 RC Released.  
  
 Licence
 ----------
 Copyright &copy; 2013 [ChanceLab. Corp.](http://www.chancelab.jp/)   
+Mail : cl_opensource@chancelab.jp
+
 Licensed under the [Apache License, Version 2.0][Apache]
 Distributed under the [MIT License][mit].   
 Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
