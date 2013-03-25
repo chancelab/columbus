@@ -11,11 +11,11 @@ Safari 5+
 
 Demo Site
 ----------
-[Demo1 - Idea Manager(User Role)](http://columbus1.chanceapp.net/ "Demo1 - Idea Manager(User)")  
-User ID(PW): user01(user01), user02(user02), user03(user03)
+[Demo1 - Idea Manager(User Role)](http://columbus1.chanceapp.net/ "Demo1 - Idea Manager(User)")    
+User ID(PW): user01(user01), user02(user02), user03(user03)  
 
-[Demo2 - Idea Manager(Admin Role)](http://columbus2.chanceapp.net/ "Demo2 - Idea Manager(Admin)") 
-Administrator ID(PW): admin(admin)
+[Demo2 - Idea Manager(Admin Role)](http://columbus2.chanceapp.net/ "Demo2 - Idea Manager(Admin)")   
+Administrator ID(PW): admin(admin)  
 User ID(PW): user(user)
 
 How To Install
@@ -95,7 +95,7 @@ Contents CRUD
 Comments CRUD  
 
 ### Functions ###
-Custom Thema, and Custom Thema  
+Custom Thema, and Custom Thema Plugin.
 Original PlugIn Installer  
 
 UPDATED
