@@ -87,9 +87,9 @@
 		<td class="td-id"><?php echo h($idea['Idea']['id']); ?>&nbsp;</td>
 		<td class="td-user"><?php echo h($idea['User']['last_name']) . "&nbsp;" . h($idea['User']['first_name']); ?>&nbsp;</td>
 		<td class="td-status-<?php echo h($idea['Status']['id']); ?>"><?php echo h($idea['Status']['name']); ?>&nbsp;</td>
-		<td class="td-title"><?php echo $this->Html->link($this->MbText->truncate(h($idea['Idea']['title']),15), array('action' => 'view', $idea['Idea']['id'])); ?></td>
+		<td class="td-title"><?php echo $this->Html->link($this->MbText->truncate($idea['Idea']['title'],15), array('action' => 'view', $idea['Idea']['id'])); ?></td>
 		<?php if(!$this->SmartPhone->isSmartPhone()): ?>
-			<td class="td-body"><?php echo $this->MbText->truncate(strip_tags($idea['Idea']['body']),20); ?>&nbsp;</td>
+			<td class="td-body"><?php echo h($this->MbText->truncate(strip_tags($idea['Idea']['body']),20)); ?>&nbsp;</td>
 		<?php endif; ?>
 		<td class="td-modified"><?php echo h($idea['Idea']['modified']); ?>&nbsp;</td>
 		<?php if(!$this->SmartPhone->isSmartPhone()): ?>

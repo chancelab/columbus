@@ -71,9 +71,9 @@
 <a data-toggle="modal" class="a_block" href="<?php echo Router::url('/ideas/view/'.$idea['Idea']['id'], true); ?>?mode=modal" data-target="#viewModal">
 -->
 <a class="a_block" href="<?php echo Router::url('/ideas/view/'.$idea['Idea']['id'], true); ?>">
-<h2><div><i></i><span></span></div><?php echo $this->MbText->truncate(h($idea['Idea']['title']),$attr['maxlen_s']); ?></h2>
+<h2><div><i></i><span></span></div><?php echo h($this->MbText->truncate($idea['Idea']['title'],$attr['maxlen_s'])); ?></h2>
 <p class="body">
-	<?php echo $this->MbText->truncate(strip_tags($idea['Idea']['body']),$attr['maxlen_l']); ?>
+	<?php echo h($this->MbText->truncate(strip_tags($idea['Idea']['body']),$attr['maxlen_l'])); ?>
 </p>
 </a>
 		<ul class="star-and-comment">
