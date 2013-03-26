@@ -143,10 +143,18 @@ input[type="hidden"] {
 }
 .login > div {
 	margin-top:20px;
-	box-shadow: inset 0 0 0 17px #e8e8e8;
-	border-radius: 17px;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
+	background-color:#e8e8e8;
+	border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+	padding:19px;
+	background-image:url(../img/whiteboard_lt.png), url(../img/whiteboard_rt.png), url(../img/whiteboard_lb.png), url(../img/whiteboard_rb.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left top, right top, left bottom, right bottom;
+}
+#UserLoginForm {
+	padding:21px 29px 29px 29px;
+	margin:0;
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(243,243,243,1))); /* Chrome,Safari4+ */
@@ -156,18 +164,7 @@ input[type="hidden"] {
 	background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-#UserLoginForm {
-	background-image:url(../img/whiteboard_lt.png), url(../img/whiteboard_rt.png), url(../img/whiteboard_lb.png), url(../img/whiteboard_rb.png);
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: left top, right top, left bottom, right bottom;
-	padding:40px 48px 48px 48px;
-	margin:0;
 
-}
-:root body #UserLoginForm  {
-	background-image:none \0/; /* IE9 */
-	border:14px solid #e8e8e8 \0/; /* IE9 */
-}
 #UserLoginForm input[type="text"],
 #UserLoginForm input[type="password"] {
 	padding-right:0;
@@ -481,55 +478,6 @@ span.push-num{
 	color:#999;
 	font-size:11px;
 }
-/* td-status- は公開しない */
-td[class^=td-status-] ul{
-	list-style-type:none;
-	margin:4px 0;
-	padding:0;
-	width:56px;
-}
-td[class^=td-status-] ul li{
-	width:12px;
-	height:4px;
-	float:left;
-	margin-left:2px;
-	background-color:#CCC;
-}
-td[class^=td-status-] ul li:first-child {
-	margin-left:0;
-}
-td.td-status-1 li:nth-child(1) {
-	background-color:#003366;
-}
-td.td-status-2 li:nth-child(1) {
-	background-color:#006699;
-}
-td.td-status-2 li:nth-child(2) {
-	background-color:#003366;
-}
-td.td-status-3 li:nth-child(1) {
-	background-color:#3399cc;
-}
-td.td-status-3 li:nth-child(2) {
-	background-color:#006699;
-}
-td.td-status-3 li:nth-child(3) {
-	background-color:#003366;
-}
-td.td-status-4 li:nth-child(1) {
-	background-color:#66ccff;
-}
-td.td-status-4 li:nth-child(2) {
-	background-color:#3399cc;
-}
-td.td-status-4 li:nth-child(3) {
-	background-color:#006699;
-}
-td.td-status-4 li:nth-child(4) {
-	background-color:#003366;
-}
-
-
 
 
 /* ======= Page / ideas - board =======*/
