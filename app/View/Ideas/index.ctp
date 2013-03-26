@@ -110,8 +110,8 @@
 					<a href='#' rel="tooltip"  data-original-title="<?php
 						echo __('latest comment') .
 						__('Created') . '：' . $idea['Idea']['new_comment_body']['IdeaResponse']['created'] . ' ' .
-						__('Modified') . '：' . $idea['Idea']['new_comment_body']['User']['last_name'] . ' ' . $idea['Idea']['new_comment_body']['User']['first_name'] . ' ' .
-						__('Comment') . '：「' . $idea['Idea']['new_comment_body']['IdeaResponse']['body'].'」';
+						__('Modified') . '：' . h($idea['Idea']['new_comment_body']['User']['last_name']) . ' ' . h($idea['Idea']['new_comment_body']['User']['first_name']) . ' ' .
+						__('Comment') . '：「' . h($idea['Idea']['new_comment_body']['IdeaResponse']['body']).'」';
 						?>" comment_id='<?php echo $idea['Idea']['id']; ?>' >
 						<?php echo h($idea['Idea']['idea_responses_count']); ?>
 					</a>

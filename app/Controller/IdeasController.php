@@ -141,7 +141,8 @@ class IdeasController extends AppController {
 		$options = array('conditions' => array('Idea.' . $this->Idea->primaryKey => $id));
 		$tags = $this->Tag->find('list', array('order' => 'Tag.id'));
 		$idea = $this->Idea->find('first', $options);
-		$addInputs = $this->InputItem->find('list', array('conditions' => array('delete_flg' => false), 'order' => 'InputItem.id'));
+		$this->InputItem->recursive = -1;
+		$addInputs = $this->InputItem->find('all', array('conditions' => array('delete_flg' => false), 'order' => 'InputItem.id'));
 		$users = array();
 		foreach( $this->User->find('all') as $user ) {
 			$users[$user['User']['id']] = $user['User']['last_name'] . $user['User']['first_name'];

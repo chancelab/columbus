@@ -23,7 +23,7 @@
 				foreach ($idea['IdeaTag'] as $ideaTag) {
 					foreach (array_keys($tags) as $tagId) {
 						if ($tagId == $ideaTag['tag_id']) {
-							echo "<span class='tag' id='tag_$tagId'><i class='icon-tag'></i> $tags[$tagId] ";
+							echo "<span class='tag' id='tag_$tagId'><i class='icon-tag'></i> ". h($tags[$tagId]) ." ";
 							if ($this->Session->check('Auth.User.id')) {
 								echo "<i class='icon-remove' onclick='removeTag($tagId);'></i>";
 							}
@@ -61,17 +61,36 @@
 <?php
 	if (!empty($idea['IdeaAddInput'])) {
 		$i = 0;
-		foreach ($idea['IdeaAddInput'] as $ideaAddInput):
-			if (!isset($addInputs[$ideaAddInput['input_item_id']])) continue;
+		foreach ($idea['IdeaAddInput'] as $ideaAddInput) {
+			$inputItem = null;
+			foreach ($addInputs as $input) {
+				if ($input['InputItem']['id'] == $ideaAddInput['input_item_id']) {
+					$inputItem = $input['InputItem'];
+					break;
+				}
+			}
+			if ($inputItem == null) continue;
 			if (strlen($ideaAddInput['body']) == 0 ) continue;
 ?>
-		<dt><?php echo $addInputs[$ideaAddInput['input_item_id']]; ?></dt>
+		<dt><?php echo h($inputItem['name']); ?></dt>
 		<dd>
 			<div class="well">
-				<?php echo $ideaAddInput['body']; ?>
+<?php
+			switch ($inputItem['type']) {
+				case INPUT_TYPE_STRING:
+					echo h($ideaAddInput['body']);
+					break;
+				case INPUT_TYPE_TEXT:
+					echo $ideaAddInput['body'];
+					break;
+			}
+?>
 			</div>
 		</dd>
-	<?php $i++; endforeach; ?>
+<?php
+			$i++;
+		}
+?>
 	<?php if (!empty($attachments)) { ?>
 	<dt><?php echo __('Attachment Files'); ?></dt>
 	<dd>
@@ -152,11 +171,11 @@
 					<div class="comment_inner">
 					<div class="arrow_box_other">
 				<?php endif; ?>
-						<?php echo $ideaResponse['body']; ?>
+						<?php echo h($ideaResponse['body']); ?>
 					</div>
 					<p class="coment_post">
 					ID：<?php echo $ideaResponse['id']; ?>&nbsp;
-					投稿者：<?php echo $users[$ideaResponse['user_id']]; ?>&nbsp;
+					投稿者：<?php echo h($users[$ideaResponse['user_id']]); ?>&nbsp;
 					投稿日：<?php echo $ideaResponse['modified']; ?>
 					</p>
 				</div>

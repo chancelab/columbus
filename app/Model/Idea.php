@@ -1,5 +1,6 @@
 <?php
 App::uses('AppModel', 'Model');
+App::uses('Sanitize', 'Utility');
 /**
  * Idea Model
  *
@@ -82,6 +83,13 @@ class Idea extends AppModel {
 			'new_comment' => "EXISTS(SELECT * FROM idea_responses WHERE Idea.id = idea_responses.idea_id AND idea_responses.modified > '$newThresholdDate')",
 			'last_modified' => 'CASE WHEN Idea.modified >= COALESCE((select max(modified) from idea_responses WHERE Idea.id = idea_responses.idea_id), \'1990-01-01\') THEN Idea.modified ELSE (select max(modified) from idea_responses WHERE Idea.id = idea_responses.idea_id) END'
 		);
+	}
+
+	public function beforeSave($options=Array()) {
+		parent::beforeSave($options);
+		$this->data['Idea']['body'] = Sanitize::stripScripts($this->data['Idea']['body']);
+		$this->data['Idea']['body'] = Sanitize::stripTagAttributes($this->data['Idea']['body'], 'onclick');
+		return true;
 	}
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

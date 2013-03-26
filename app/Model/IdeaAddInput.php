@@ -36,6 +36,19 @@ class IdeaAddInput extends AppModel {
 		),
 	);
 
+	public function beforeSave($options=Array()) {
+		parent::beforeSave($options);
+		$this->InputItem->recursive = -1;
+		$inputItem = $this->InputItem->read('type', $this->data['IdeaAddInput']['input_item_id']);
+		switch ($inputItem['InputItem']['type']) {
+			case INPUT_TYPE_TEXT:
+				$this->data['IdeaAddInput']['body'] = Sanitize::stripScripts($this->data['IdeaAddInput']['body']);
+				$this->data['IdeaAddInput']['body'] = Sanitize::stripTagAttributes($this->data['IdeaAddInput']['body'], 'onclick');
+				break;
+		}
+		return true;
+	}
+
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
 /**

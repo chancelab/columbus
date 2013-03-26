@@ -1,5 +1,6 @@
 <?php
 App::uses('AppModel', 'Model');
+App::uses('Sanitize', 'Utility');
 /**
  * AppSetting Model
  *
@@ -28,6 +29,18 @@ class AppSetting extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+			'maxLength' => array(
+				'rule' => array('maxLength', 255),
+				'message' => 'Please input 255 characters or less.'
+			),
 		),
 	);
+
+	public function beforeSave($options=Array()) {
+		parent::beforeSave($options);
+		$this->data['AppSetting']['title'] = Sanitize::stripScripts($this->data['AppSetting']['title']);
+		$this->data['AppSetting']['title'] = Sanitize::stripTagAttributes($this->data['AppSetting']['title'], 'onclick');
+		return true;
+	}
+
 }
