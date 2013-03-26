@@ -200,6 +200,10 @@ class IdeasController extends AppController {
 		}
 	}
 
+	/**
+	 * delete atattchment files
+	 * @return void
+	 */
 	public function delete_idea_file($idea_id) {
 		foreach($this->get_attachment_files($idea_id) as $file) {
 			unlink(WWW_ROOT.'files'.DS.$file['Attachment']['name']);
@@ -337,13 +341,13 @@ class IdeasController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 
-/**
- * edit method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
+	/**
+	 * edit method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
 	public function useredit() {
 		$id = $this->Session->read("Auth.User.id");
 		if (!$this->User->exists($id)) {
