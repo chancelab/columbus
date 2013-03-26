@@ -106,7 +106,8 @@ Original PlugIn Installer
 
 UPDATED
 ---------
-22/03/2013 Version 0.1.0 RC Released.  
+22/03/2013 Version 0.1.0_RC Released.  
+26/03/2013 Version 0.1.0 Released.  
  
 Licence
 ----------
